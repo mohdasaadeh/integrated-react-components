@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker-wrapper {
+  max-width: 120px;
+}
+
+.react-datepicker-wrapper input {
+  max-width: 120px;
+}
+
+.react-datepicker__tab-loop {
+  z-index: 20;
+}
+
+.shadow-element {
+  box-shadow: 0 0 40px -10px;
+  clip-path: inset(0px -10px 0px 0px);
+}
+
+.shadow-element-header {
+  box-shadow: 0 0 40px -7px black;
+  clip-path: inset(0px -10px 0px 0px);
+}
+
+th {
+  width: 150px;
+  text-align: start;
+  height: 40px;
+  padding-left: 30px;
+}
+
+td {
+  width: 150px;
+  height: 40px;
+  padding-left: 30px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
