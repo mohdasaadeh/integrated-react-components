@@ -5,3 +5,5 @@ export * from "./ChartWithPicker";
 export * from "./Dropdown";
 export * from "./Select";
 export * from "./Table";
+export * from "./RangeDatePicker";
+export * from "./AutoSelectDatesPanel";

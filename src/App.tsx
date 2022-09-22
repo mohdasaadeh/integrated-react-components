@@ -2,7 +2,13 @@ import React from "react";
 import type { MenuProps } from "antd";
 
 import "./app.css";
-import { Dropdown, Select, Table } from "./components";
+import {
+  Dropdown,
+  Select,
+  Table,
+  RangeDatePicker,
+  AutoSelectDatesPanel,
+} from "./components";
 
 const App: React.FC = () => {
   const handleMenuClick: MenuProps["onClick"] = (e) => {
@@ -34,7 +40,13 @@ const App: React.FC = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <div className="border rounded-md shadow-sm my-4">
+      <div className="w-full flex justify-center items-center">
+        <RangeDatePicker />
+      </div>
+      {/* <div className="w-full flex justify-center items-center my-10">
+        <AutoSelectDatesPanel />
+      </div> */}
+      {/* <div className="border rounded-md shadow-sm my-4">
         <Dropdown
           items={[
             {
@@ -61,7 +73,7 @@ const App: React.FC = () => {
       </div>
       <div className="w-full">
         <Table columnHeaders={columnHeaders} rows={rows} />
-      </div>
+      </div> */}
     </div>
   );
 };
