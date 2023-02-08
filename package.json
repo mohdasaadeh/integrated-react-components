@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.10",
     "@types/react-datepicker": "^4.4.2",
     "antd": "^4.22.8",
     "apexcharts": "^3.35.5",
