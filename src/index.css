@@ -47,3 +47,20 @@ td {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.slick-prev::before,
+.slick-next::before {
+  color: black;
+}
+
+.slick-slide {
+  padding-left: 20px;
+}
+
+.slick-list {
+  margin-left: -20px;
+}
+
+.slick-track {
+  display: flex;
+}
