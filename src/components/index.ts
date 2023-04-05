@@ -5,3 +5,4 @@ export * from "./Dropdown";
 export * from "./Select";
 export * from "./Toggle";
 export * from "./Carousel";
+export * from "./TextTrimmer";
