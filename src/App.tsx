@@ -7,12 +7,12 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen overflow-hidden">
       <div
-        className="w-[300px] mx-auto px-6 flex justify-center items-center"
+        className="w-[134px] mx-auto flex justify-center items-center text-[15px]"
         dir="rtl"
       >
         <TextTrimmer
-          textInput="نحن نود شراء العديد من الادوات المنزلية والتًي ستساعدنا في الكثير من الأشياء"
-          linesNumber={1}
+          textInput="الرحمة في حياة الرسول صلى الله عليه وسلم"
+          linesNumber={2}
         />
       </div>
     </div>
